@@ -22,3 +22,41 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 5%;
+    font-size: 0.6em;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:hover {
+    cursor:pointer;
+    background-color:  grey;
+}
+.rd3-chart-title {
+    background-color: #4CAF50;
+    padding: 10px 10px 10px 10px;
+    position: static;
+}
+
+.hov {
+    background-color: black;
+}
+.hov:hover {
+    cursor:pointer;
+    background-color: grey !important;
+}

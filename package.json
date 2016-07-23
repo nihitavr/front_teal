@@ -6,9 +6,18 @@
     "react-scripts": "0.1.0"
   },
   "dependencies": {
+    "chart.js": "^1.1.1",
     "csvtojson": "^1.0.0",
+    "d3": "^3.5.17",
+    "fetch": "^1.1.0",
+    "lodash": "^4.13.1",
+    "rd3": "^0.6.5",
     "react": "^15.2.1",
+    "react-bootstrap": "^0.30.0-rc.2",
+    "react-chartjs": "^0.7.3",
+    "react-datagrid": "^2.1.1",
     "react-dom": "^15.2.1",
+    "superagent": "^2.1.0",
     "xlsx-to-json": "^0.2.4"
   },
   "scripts": {
